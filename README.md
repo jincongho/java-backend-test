@@ -50,7 +50,7 @@ Example (matching the input above):
   "oilPatchesCleaned" : 1
 }
 ```
-Where `coords` are the final coordinates of the cleaner and `patches` is the number of cleaned patches.
+Where `finalPosition` are the final coordinates of the cleaner and `oilPatchesCleaned` is the number of cleaned patches.
 
 ## Deliverable
 
