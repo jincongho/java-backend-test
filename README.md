@@ -40,7 +40,7 @@ Example:
 
 ## Output
 
-Service output should be returned as JSON.
+Service output must be returned as JSON.
 
 Example (matching the input above):
 
@@ -50,14 +50,14 @@ Example (matching the input above):
   "oilPatchesCleaned" : 1
 }
 ```
-Where `finalPosition` are the final coordinates of the cleaner and `oilPatchesCleaned` is the number of cleaned patches.
+Where `finalPosition` is the final coordinates of the cleaner and `oilPatchesCleaned` is the number of cleaned patches.
 
 ## Deliverable
 
 The service:
 
 * is a web service
-* must run on Mac OS X or Linux (x86-64)
+* must run on MacOS
 * must be written using Java 8 or later using Spring Boot
 * can make use of any existing open source libraries that don't directly address the problem statement (use your best judgement).
 
@@ -65,7 +65,7 @@ We require:
 
 * The full source code, including any code written which is not part of the normal program run (scripts, tests).
 * Clear instructions on how to build and run the program.
-* Please provide any deliverables and instructions using a public Github (or similar) repository rather than ZIP files, emails and so on.
+* Please provide any deliverables and instructions using a public or private Github repository. If you decide to use a private repository, please invite all of the following users: `davidgoate`, `hansonhsc`, `lapostoj` & `MPoorter`.
 
 ## Evaluation
 
@@ -74,6 +74,6 @@ We will especially consider:
 * Code organisation
 * Quality
 * Readability
-* Actually solving of the problem
+* Solving of the problem
 
 This test is based on the following gist https://gist.github.com/alirussell/9a519e07128b7eafcb50
